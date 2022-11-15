@@ -1,0 +1,152 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  /* #fff is white, #000 is black */
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  /* 3% top bottom, 15% left right */
+}
+
+
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  /* font-weight: 800; */
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbarSupportedContent {
+    padding: 3% 15%;
+    /* 3% top bottom, 15% left right */
+}
+
+/* Download Buttons */
+
+.my-download-btn {
+  margin: 5% 3% 5% 0;
+  /* 5 top 3 right 5 left 0 bottom */
+}
+
+/* Title Image */
+
+.phone-image {
+  transform: rotate(25deg);
+  width: 60%;
+  /* width 60% of original*/
+}
+
+/* Title Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-box-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* hover is a pseudo-class, or pseudo-state, or whatever */
+.feature-box-icon:hover {
+  color: #ff4c68;
+}
+
+/* alternating white and colored sections is a nice design */
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  /* colored sections use white text, white secions use black text */
+  color: #ffffff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  /* ^ make it a circle! */
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+  /* 20 top 20 left and right 50 bottom */
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+  /* 3 top bottom, 2 left right */
+}
